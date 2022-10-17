@@ -1,0 +1,117 @@
+
+/* start Sectio Hiddeng */
+
+.line1
+{
+   background-color: red;
+   width:40%;
+   margin: auto auto 10px auto;
+   height:3px;
+   transition:all 2s;
+}
+.line2
+{
+   background-color: red;
+   width:30%;
+   margin: auto auto 10px auto;
+   height:3px;
+   transition:all 2s
+}
+.line3
+{
+   background-color: red;
+   width:20%;
+   margin: auto auto 7px auto;
+   height:3px;
+   transition:all 2s
+}
+.for-line:hover .line1{width:50%;}
+.for-line:hover .line2{width:40%;}
+.for-line:hover .line3{width:30%;}
+
+/* End Sectio Hiddeng */
+
+
+.occasion_heading
+{
+    padding: 20px 0;
+    /* background-color: cadetblue; */
+}
+
+
+
+/* Start section for mother day */
+
+
+
+/* End section for mother day */
+.occasion_info
+{
+    margin: 40px auto;
+}
+.occasion_info img 
+{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.occasion_info img:hover
+{
+    transform: scale(1.1);
+}
+.occasion_info h5
+{
+    font-weight: bold;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.mySlides
+{
+    display: none;
+}
+.card_info h5
+{
+    padding-top:10px ;
+}
+
+
+.dot
+{
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 4px;
+    display: inline-block;
+}
+/* the next page */
+.card_info img 
+{
+    cursor: pointer;
+}
+
+
+.finally h5 {font-weight: bold;}
+
+.finally i {
+    color: rgb(153, 150, 150);
+}
+.finally a
+{
+    color: rgb(182, 179, 179);
+    padding-top: 10px ;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+.finally a:hover 
+{
+    color: #fff;
+}
+footer
+{
+    background-color: rgb(48, 49, 49);
+}

@@ -1,0 +1,326 @@
+/* rgba(214, 46, 51 , 0.6); */
+
+/*start style siction:-1  and nav1 & nav2*/
+
+*
+{
+  font-family:'Times New Roman', Times, serif;
+ 
+}
+/* start nav1 */
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link{
+    font-size: 20px !important;
+    transition:all 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover
+{
+    /* color: rgb(10, 10, 10) !important; */
+    color: red !important;
+}
+.navbar-light .navbar-nav .nav-link:focus
+{
+    color: rgb(44, 49, 44) !important;
+}
+
+.side-bar .side-nav
+{
+    background-color: #515151 !important;
+}
+.text-sell
+{
+    font-size: 30px;
+    width: 561px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/*End section 1 and nav1 & nav2 */
+
+
+
+
+
+/* start section 2 slider-products   */
+body
+{
+    font-family: 'segoe ui light';
+}
+#butUp
+{
+    position: fixed;
+    right: 7%;
+    bottom: 7%;
+    z-index:111;
+    display: none;
+}
+.line1
+{
+   background-color: red;
+   width:40%;
+   margin: auto auto 10px auto;
+   height:3px;
+   transition:all 2s;
+}
+.line2
+{
+   background-color: red;
+   width:30%;
+   margin: auto auto 10px auto;
+   height:3px;
+   transition:all 2s
+}
+.line3
+{
+   background-color: red;
+   width:20%;
+   margin: auto auto 7px auto;
+   height:3px;
+   transition:all 2s
+}
+.for-line:hover .line1{width:50%;}
+.for-line:hover .line2{width:40%;}
+.for-line:hover .line3{width:30%;}
+
+/* End slid products */
+
+#navbar
+{
+    background-color:rgb(255, 255, 255);
+    /* background-color:rgb(156, 153, 153); */
+    z-index:333;
+ 
+}
+#show
+{
+    background-color: rgb(247, 247, 247) !important;
+    border: 2px solid rgb(235, 229, 229);
+    padding: 40px;
+    margin-top:70px;
+}
+.carousel,img
+{
+    border-radius:30px;
+}
+.slider-prodect 
+{
+    display:none;
+    background-color: rgba(233, 232, 230, 0.61);
+}
+
+/* start Sectio Hiddeng */
+
+.line1
+{
+   background-color: red;
+   width:40%;
+   margin: auto auto 10px auto;
+   height:3px;
+   transition:all 2s;
+}
+.line2
+{
+   background-color: red;
+   width:30%;
+   margin: auto auto 10px auto;
+   height:3px;
+   transition:all 2s
+}
+.line3
+{
+   background-color: red;
+   width:20%;
+   margin: auto auto 7px auto;
+   height:3px;
+   transition:all 2s
+}
+.for-line:hover .line1{width:45%;}
+.for-line:hover .line2{width:35%;}
+.for-line:hover .line3{width:25%;}
+
+/* End Sectio Hiddeng */
+#Seal-prodect {display:none;}
+
+/* Start section item */
+.item-caption
+{
+    background-color: rgb(222, 223, 224);
+}
+.item
+{
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 1s;
+    
+}
+.item
+{
+    border:4px solid rgb(182, 179, 179);
+    padding: 20px;
+    border-radius:10px;
+}
+
+
+#lightbox-container
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:99999;
+    display: none;
+}
+
+#lightbox-item
+{
+    width: 50%;
+    height: 70vh;
+    background-image: url(../images/portfolio-2.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#prev , #next , #close
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+#close
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* End section item */
+
+
+.item:hover
+{
+    /* background-color: rgb(66, 220, 247); */
+    box-shadow: -5px -5px 8px rgb(148, 140, 140),5px 5px 8px rgb(148, 140, 140);
+}
+
+/* .slider-prodect{
+    display: none;
+} */
+
+.slid-seal
+{
+    height: 70vh;
+}
+.slid-seal img
+{
+    height:100%;
+    
+}
+
+#boot
+{
+    position: relative;
+    right: -1339px;
+    bottom: -679px;
+}
+
+#card1
+{
+    position: relative;
+    left: 500px;
+    bottom: -250px;
+    z-index: 333;
+}
+
+.wedding .cart
+{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: all 0.4s;
+   
+}
+.wedding .cart:hover{ padding: 10px 47px;}
+.wedding .seeMore a
+{
+color: #000;
+text-decoration: none;
+font-size: 18px;
+}
+.wedding_intro p{line-height: 29px;}
+
+
+/* Start section 44 */
+
+.slid-gift
+{
+    background-color: rgb(247, 247, 247) !important;
+    padding: 40px;
+}
+
+.carousel-indicators li
+{
+    /* background-color: rgb(119, 116, 116) !important; */
+    border-radius: 50% !important;
+    width:10px !important;
+    height:10px !important;
+}
+.occasion_info img 
+{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* End section 44 */
+
+/* start section 6 */
+.slid-one
+{
+    width: 80%;
+    margin: auto;
+}
+.slid-one img
+{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#member
+{
+    /* background-color: rgba(233, 232, 230, 0.61); */
+    padding:20px;
+}
+/* End section 6 */
+/* start footer */
+.finally h5 {font-weight: bold;}
+
+.finally i {
+    color: rgb(153, 150, 150);
+}
+.finally a
+{
+    color: rgb(182, 179, 179);
+    padding-top: 10px ;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+.finally a:hover 
+{
+    color: #fff;
+}
+footer
+{
+    background-color: rgb(48, 49, 49);
+}
+/* end Footer */
